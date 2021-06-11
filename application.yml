@@ -5,5 +5,5 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    serviceUrl:
+    service-url:
       defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka/
